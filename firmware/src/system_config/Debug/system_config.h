@@ -170,6 +170,8 @@ extern "C" {
 /*** Application Instance 1 Configuration ***/
 #define DBG_USART_DRV_USART                     1
 
+/*** Application Instance 2 Configuration ***/
+
 //DOM-IGNORE-BEGIN
 #ifdef __cplusplus
 }

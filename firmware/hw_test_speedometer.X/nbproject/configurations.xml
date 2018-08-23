@@ -31,6 +31,7 @@
         </logicalFolder>
         <itemPath>../src/bluetooth_usart.h</itemPath>
         <itemPath>../src/dbg_usart.h</itemPath>
+        <itemPath>../src/sensor_test.h</itemPath>
       </logicalFolder>
       <logicalFolder name="f1" displayName="framework" projectFiles="true">
         <logicalFolder name="f1" displayName="driver" projectFiles="true">
@@ -130,6 +131,7 @@
         </logicalFolder>
         <itemPath>../src/bluetooth_usart.c</itemPath>
         <itemPath>../src/dbg_usart.c</itemPath>
+        <itemPath>../src/sensor_test.c</itemPath>
         <itemPath>../src/main.c</itemPath>
       </logicalFolder>
       <logicalFolder name="f1" displayName="framework" projectFiles="true">

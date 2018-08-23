@@ -86,6 +86,7 @@ void SYS_Tasks ( void )
     /* Maintain the application's state machine. */
     BLUETOOTH_USART_Tasks();
     DBG_USART_Tasks();
+    SENSOR_TEST_Tasks();
 }
 
 

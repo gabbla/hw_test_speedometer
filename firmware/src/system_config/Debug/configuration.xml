@@ -139,7 +139,7 @@
       <Template dnOrder="4">
         <Name dnOrder="0">system_interrupt.c</Name>
         <Path dnOrder="1">Source&amp;#160;Files/app/system_config/Debug</Path>
-        <Checksum dnOrder="2">D4D2A3EA1B785D0ECC74AEB38EAD9F4B</Checksum>
+        <Checksum dnOrder="2">644CD0D2C50A596C5DD67A113A9A38E5</Checksum>
       </Template>
       <Template dnOrder="5">
         <Name dnOrder="0">system_exceptions.c</Name>
@@ -149,7 +149,7 @@
       <Template dnOrder="6">
         <Name dnOrder="0">system_tasks.c</Name>
         <Path dnOrder="1">Source&amp;#160;Files/app/system_config/Debug</Path>
-        <Checksum dnOrder="2">756F3D12DF7B6FCBC0D98F4B93D5EFC6</Checksum>
+        <Checksum dnOrder="2">6B73269437F773F74FF7ECCC11F15D64</Checksum>
       </Template>
       <Template dnOrder="7">
         <Name dnOrder="0">drv_usart_static.h</Name>
@@ -172,57 +172,68 @@
         <Checksum dnOrder="2">4100B7B9691076A8AFACAA94BFBDAB13</Checksum>
       </Template>
       <Template dnOrder="11">
+        <Name dnOrder="0">sensor_test.h</Name>
+        <Path dnOrder="1">Header&amp;#160;Files/app</Path>
+        <Checksum dnOrder="2">01D44BDAA971A30076A4738F721F9B5D</Checksum>
+      </Template>
+      <Template dnOrder="12">
         <Name dnOrder="0">sys_ports_static.c</Name>
         <Path dnOrder="1">Source&amp;#160;Files/app/system_config/Debug/framework/system/ports/src</Path>
         <Checksum dnOrder="2">19D4661672FA3D33BB0BF144C5B8E288</Checksum>
         <ProjectFileChecksum dnOrder="3">1BC9C76756B397B8EECD6C1490F6C76B</ProjectFileChecksum>
       </Template>
-      <Template dnOrder="12">
+      <Template dnOrder="13">
         <Name dnOrder="0">system_definitions.h</Name>
         <Path dnOrder="1">Header&amp;#160;Files/app/system_config/Debug</Path>
-        <Checksum dnOrder="2">CC09875C0E7BB0B96B5A8547B5F7E537</Checksum>
+        <Checksum dnOrder="2">F6190A832580C555C8A69BCA8C61B75E</Checksum>
       </Template>
-      <Template dnOrder="13">
+      <Template dnOrder="14">
         <Name dnOrder="0">drv_usart_static.c</Name>
         <Path dnOrder="1">Source&amp;#160;Files/app/system_config/Debug/framework/driver/usart/src</Path>
         <Checksum dnOrder="2">86CA6A0973A222494C755F21D2880433</Checksum>
       </Template>
-      <Template dnOrder="14">
+      <Template dnOrder="15">
         <Name dnOrder="0">sys_devcon.h</Name>
         <Path dnOrder="1">Header&amp;#160;Files/app/system_config/Debug/framework/system/devcon</Path>
         <Checksum dnOrder="2">07580DCDEF89D9C79B062544109C5367</Checksum>
       </Template>
-      <Template dnOrder="15">
+      <Template dnOrder="16">
         <Name dnOrder="0">system_config.h</Name>
         <Path dnOrder="1">Header&amp;#160;Files/app/system_config/Debug</Path>
-        <Checksum dnOrder="2">8C1BA9A0076AD4329A20C94380E5355F</Checksum>
-      </Template>
-      <Template dnOrder="16">
-        <Name dnOrder="0">system_init.c</Name>
-        <Path dnOrder="1">Source&amp;#160;Files/app/system_config/Debug</Path>
-        <Checksum dnOrder="2">9045B7F895AB6ACFCE5C3AA6315070F9</Checksum>
+        <Checksum dnOrder="2">6A56CCB0A688521064213BBBBC1AD787</Checksum>
       </Template>
       <Template dnOrder="17">
+        <Name dnOrder="0">system_init.c</Name>
+        <Path dnOrder="1">Source&amp;#160;Files/app/system_config/Debug</Path>
+        <Checksum dnOrder="2">05144AEB0881F6DAC8E437454AC72BD0</Checksum>
+      </Template>
+      <Template dnOrder="18">
         <Name dnOrder="0">sys_devcon_pic32mx.c</Name>
         <Path dnOrder="1">Source&amp;#160;Files/app/system_config/Debug/framework/system/devcon/src</Path>
         <Checksum dnOrder="2">5141464248E33ABE9E7D144A2D4DC129</Checksum>
       </Template>
-      <Template dnOrder="18">
+      <Template dnOrder="19">
         <Name dnOrder="0">dbg_usart.h</Name>
         <Path dnOrder="1">Header&amp;#160;Files/app</Path>
         <Checksum dnOrder="2">00A85F4E1D55A7B02B1A3E1A736C4E4D</Checksum>
       </Template>
-      <Template dnOrder="19">
+      <Template dnOrder="20">
         <Name dnOrder="0">sys_devcon.c</Name>
         <Path dnOrder="1">Source&amp;#160;Files/app/system_config/Debug/framework/system/devcon/src</Path>
         <Checksum dnOrder="2">54ADBD4A35BCA03C42C74182FCE41849</Checksum>
       </Template>
-      <Template dnOrder="20">
+      <Template dnOrder="21">
+        <Name dnOrder="0">sensor_test.c</Name>
+        <Path dnOrder="1">Source&amp;#160;Files/app</Path>
+        <Checksum dnOrder="2">D745AF655ABD4246591056BD610A8AC1</Checksum>
+      </Template>
+      <Template dnOrder="22">
         <Name dnOrder="0">dbg_usart.c</Name>
         <Path dnOrder="1">Source&amp;#160;Files/app</Path>
         <Checksum dnOrder="2">2D622D3D60FA728ED8E664A804BE7773</Checksum>
+        <ProjectFileChecksum dnOrder="3">6870314DB2721E5959794705C5104231</ProjectFileChecksum>
       </Template>
-      <Template dnOrder="21">
+      <Template dnOrder="23">
         <Name dnOrder="0">drv_usart_static_byte_model.c</Name>
         <Path dnOrder="1">Source&amp;#160;Files/app/system_config/Debug/framework/driver/usart/src</Path>
         <Checksum dnOrder="2">EBCD45488AB69249A7EE233856E4C622</Checksum>

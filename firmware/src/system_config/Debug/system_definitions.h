@@ -56,6 +56,7 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #include "system/ports/sys_ports.h"
 #include "bluetooth_usart.h"
 #include "dbg_usart.h"
+#include "sensor_test.h"
 
 
 // DOM-IGNORE-BEGIN
