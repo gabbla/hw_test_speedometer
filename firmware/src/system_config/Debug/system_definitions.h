@@ -54,9 +54,11 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #include "system/int/sys_int.h"
 #include "driver/usart/drv_usart_static.h"
 #include "system/ports/sys_ports.h"
+#include "driver/spi/static/drv_spi_static.h"
 #include "bluetooth_usart.h"
 #include "dbg_usart.h"
 #include "sensor_test.h"
+#include "spi_test.h"
 
 
 // DOM-IGNORE-BEGIN
@@ -93,6 +95,9 @@ typedef struct
 
     SYS_MODULE_OBJ  drvUsart0;
     SYS_MODULE_OBJ  drvUsart1;
+
+    /*** SPI Object for Index 0 ***/
+    SYS_MODULE_OBJ				spiObjectIdx0;
 
 } SYSTEM_OBJECTS;
 

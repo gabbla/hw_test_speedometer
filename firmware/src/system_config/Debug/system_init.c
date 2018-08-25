@@ -96,6 +96,9 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 // Section: Driver Initialization Data
 // *****************************************************************************
 // *****************************************************************************
+// <editor-fold defaultstate="collapsed" desc="DRV_SPI Initialization Data"> 
+ /*** SPI Driver Initialization Data ***/
+// </editor-fold>
 // <editor-fold defaultstate="collapsed" desc="DRV_USART Initialization Data">
 // </editor-fold>
 
@@ -145,6 +148,12 @@ void SYS_Initialize ( void* data )
     SYS_DEVCON_PerformanceConfig(SYS_CLK_SystemFrequencyGet());
 
     /* Initialize Drivers */
+
+    /*** SPI Driver Index 0 initialization***/
+
+    SYS_INT_VectorPrioritySet(INT_VECTOR_SPI2, INT_PRIORITY_LEVEL1);
+    SYS_INT_VectorSubprioritySet(INT_VECTOR_SPI2, INT_SUBPRIORITY_LEVEL0);
+    sysObj.spiObjectIdx0 = DRV_SPI_Initialize(DRV_SPI_INDEX_0, (const SYS_MODULE_INIT  * const)NULL);
     sysObj.drvUsart0 = DRV_USART_Initialize(DRV_USART_INDEX_0, (SYS_MODULE_INIT *)NULL);
     sysObj.drvUsart1 = DRV_USART_Initialize(DRV_USART_INDEX_1, (SYS_MODULE_INIT *)NULL);
 
@@ -179,6 +188,7 @@ void SYS_Initialize ( void* data )
     BLUETOOTH_USART_Initialize();
     DBG_USART_Initialize();
     SENSOR_TEST_Initialize();
+    SPI_TEST_Initialize();
 }
 
 

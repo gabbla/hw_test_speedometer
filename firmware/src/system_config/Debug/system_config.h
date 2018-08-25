@@ -121,6 +121,26 @@ extern "C" {
 // Section: Driver Configuration
 // *****************************************************************************
 // *****************************************************************************
+
+/*** SPI Driver Configuration ***/
+#define DRV_SPI_NUMBER_OF_MODULES		2
+/*** Driver Compilation and static configuration options. ***/
+/*** Select SPI compilation units.***/
+#define DRV_SPI_POLLED 				0
+#define DRV_SPI_ISR 				1
+#define DRV_SPI_MASTER 				1
+#define DRV_SPI_SLAVE 				0
+#define DRV_SPI_RM 					0
+#define DRV_SPI_EBM 				1
+#define DRV_SPI_8BIT 				1
+#define DRV_SPI_16BIT 				0
+#define DRV_SPI_32BIT 				0
+#define DRV_SPI_DMA 				0
+
+/*** SPI Driver Static Allocation Options ***/
+#define DRV_SPI_INSTANCES_NUMBER 		1
+#define DRV_SPI_CLIENTS_NUMBER 			1
+#define DRV_SPI_ELEMENTS_PER_QUEUE 		10
 // *****************************************************************************
 /* USART Driver Configuration Options
 */
@@ -171,6 +191,8 @@ extern "C" {
 #define DBG_USART_DRV_USART                     1
 
 /*** Application Instance 2 Configuration ***/
+
+/*** Application Instance 3 Configuration ***/
 
 //DOM-IGNORE-BEGIN
 #ifdef __cplusplus

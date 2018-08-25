@@ -87,6 +87,7 @@ void SYS_Tasks ( void )
     BLUETOOTH_USART_Tasks();
     DBG_USART_Tasks();
     SENSOR_TEST_Tasks();
+    SPI_TEST_Tasks();
 }
 
 
